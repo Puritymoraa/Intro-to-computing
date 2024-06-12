@@ -1,0 +1,13 @@
+value = input("Kindly enter your expression of your total values:")
+
+while value != 0:
+#     value = int(input("Kindly enter your expression of your total values:"))
+    result = eval(value)
+    if result == 0:
+        print("Kindly repeat your first value entered:")
+    else:
+        
+        print((result/len(value)))
+    break
+        
+    

@@ -1,0 +1,7 @@
+def reverse_lookup(dictionary, value):
+    for key in dictionary:
+        if dictionary[key] == value:
+            return key
+        #raise LookupError
+mydict = {"name": "Salome", "course":"CS", "age":20}
+print(reverse_lookup(mydict, 2))
